@@ -1,0 +1,10 @@
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\bin\Release\AgendaCNIeldorado.exe.config
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\bin\Release\AgendaCNIeldorado.exe
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\bin\Release\AgendaCNIeldorado.pdb
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\obj\Release\AgendaCNIeldorado.csprojAssemblyReference.cache
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\obj\Release\AgendaCNIeldorado.frmPrincipal.resources
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\obj\Release\AgendaCNIeldorado.Properties.Resources.resources
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\obj\Release\AgendaCNIeldorado.csproj.GenerateResource.cache
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\obj\Release\AgendaCNIeldorado.csproj.CoreCompileInputs.cache
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\obj\Release\AgendaCNIeldorado.exe
+C:\Users\MEUS DOCUMENTOS\Desktop\SISTEMAS LUA PROJETO CNI ELDORADO\AgendaCNIeldorado\AgendaCNIeldorado\obj\Release\AgendaCNIeldorado.pdb

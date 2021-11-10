@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47664420-A4B4-4928-803E-8D5370897B79}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AgendaCNIeldorado</RootNamespace>
+    <AssemblyName>AgendaCNIeldorado</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.25.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.25\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgendaCNIeldoradoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AgendaCNIeldoradoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuarta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuarta.Designer.cs">
+      <DependentUpon>frmQuarta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuinta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuinta.Designer.cs">
+      <DependentUpon>frmQuinta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSabado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSabado.Designer.cs">
+      <DependentUpon>frmSabado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSegunda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSegunda.Designer.cs">
+      <DependentUpon>frmSegunda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSexta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSexta.Designer.cs">
+      <DependentUpon>frmSexta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTerca.Designer.cs">
+      <DependentUpon>frmTerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuarta.resx">
+      <DependentUpon>frmQuarta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuinta.resx">
+      <DependentUpon>frmQuinta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSabado.resx">
+      <DependentUpon>frmSabado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSegunda.resx">
+      <DependentUpon>frmSegunda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSexta.resx">
+      <DependentUpon>frmSexta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTerca.resx">
+      <DependentUpon>frmTerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="AgendaCNIeldoradoDataSet.xsc">
+      <DependentUpon>AgendaCNIeldoradoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AgendaCNIeldoradoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AgendaCNIeldoradoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AgendaCNIeldoradoDataSet.xss">
+      <DependentUpon>AgendaCNIeldoradoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sair.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disquete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
